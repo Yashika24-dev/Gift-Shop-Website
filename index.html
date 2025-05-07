@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giftopia - Where Every Gift Tells a Story</title>
+    <meta name="description" content="Your one-stop destination for unique gifts that make every moment special!">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <svg class="logo-svg" viewBox="0 0 250 80" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="40" cy="40" r="30" fill="#FF1493" />
+                    <text x="40" y="45" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Giftopia</text>
+                    <text x="80" y="42" text-anchor="start" fill="#333" font-size="24" font-weight="bold">Giftopia</text>
+                    <text x="80" y="62" text-anchor="start" fill="#FF1493" font-size="16">Packed with Wonder</text>
+                </svg>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Giftopia: Handcrafted with Love</h1>
+                <p>Discover unique, handcrafted treasures that bring smiles and memories to life</p>
+                <a href="#products" class="btn">Explore Our Products</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Bundles of Joy</h2>
+            <p class="section-description">Discover a variety of handcrafted treasures, each designed to make every moment special</p>
+            
+            <div class="product-filter">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="bracelets">Bracelets</button>
+                <button class="filter-btn" data-filter="necklaces">Necklaces</button>
+                <button class="filter-btn" data-filter="plushies">Plush Toys</button>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card" data-category="bracelets">
+                    <div class="product-image">
+                        <img src="images/beadedcharm.jpg" class="placeholder-image">
+                        <div class="image-overlay">
+                            <span>For that Special Someone</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Beaded Charm Bracelet</h3>
+                        <p>Colorful beads with personalized charms like initials, birthstones, or symbols that hold personal meaning.</p>
+                        <div class="product-features">
+                            <span><i class="fa-solid fa-hands"></i> Handpicked</span>
+                            <span><i class="fa-solid fa-thumbs-up"></i> Adjustable Fit</span>
+                            <span><i class="fa-solid fa-vest-patches"></i> Versatile & Stylish</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="bracelets">
+                    <div class="product-image">
+                        <img src="Images/crystalhealing.jpg" class="placeholder-image">
+                        <div class="image-overlay">
+                            <span>Balance & Calmness</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Crystal Healing Bracelet</h3>
+                        <p>Bracelets featuring semi-precious stones like amethyst, rose quartz, and citrine, designed for wellness and balance.</p>
+                        <div class="product-features">
+                            <span><i class="fa-solid fa-hands"></i> Handpicked</span>
+                            <span><i class="fa-solid fa-thumbs-up"></i> Adjustable Fit</span>
+                            <span><i class="fa-solid fa-hand-holding-heart"></i> Healing & Therapeutic</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="necklaces">
+                    <div class="product-image">
+                        <img src="Images/initialname.jpg" class="placeholder-image">
+                        <div class="image-overlay">
+                            <span>Unique & Stylish</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Initial & Name Necklace</h3>
+                        <p>Add a personal touch with our handcrafted Initial & Name Necklaces — simple, stylish, and uniquely yours.</p>
+                        <div class="product-features">
+                            <span><i class="fa-solid fa-fingerprint"></i> Personalized</span>
+                            <span><i class="fa-solid fa-vest-patches"></i> Versatile & Stylish</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="necklaces">
+                    <div class="product-image">
+                        <img src="Images/birthstone.jpg" class="placeholder-image">
+                        <div class="image-overlay">
+                            <span>Meaningful. Timeless. You.</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Birthstone Pendant</h3>
+                        <p>Celebrate individuality with our elegant Birthstone Pendants — a timeless gift for every birth month.</p>
+                        <div class="product-features">
+                            <span><i class="fa-solid fa-hands"></i> Handpicked</span>
+                            <span><i class="fa-solid fa-fingerprint"></i> Personalized</span>
+                            <span><i class="fa-solid fa-vest-patches"></i> Versatile & Stylish</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="plushies">
+                    <div class="product-image">
+                        <img src="Images/snugglebuddy.jpg" class="placeholder-image">
+                        <div class="image-overlay">
+                            <span>Hug. Love. Repeat.</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>SnuggleBuddy Plushie</h3>
+                        <p>A soft, handcrafted plush made just for you — with your name, your colors, your story.</p>
+                        <div class="product-features">
+                            <span><i class="fa-solid fa-fingerprint"></i> Personalized</span>
+                            <span><i class="fa-solid fa-dice-d6"></i> Customizable</span>
+                            <span><i class="fa-solid fa-hand-holding-heart"></i> Healing & Therapeutic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Product Gallery</h2>
+            <div class="gallery-container">
+                <div class="gallery-main">
+                    <img id="featuredImage" src="Images/snugglebuddy.jpg" class="featured-image">
+                </div>
+                <div class="gallery-thumbnails">
+                    <img src="Images/beadedcharm.jpg" alt="Amla Murabba" class="thumbnail active">
+                    <img src="Images/crystalhealing.jpg" alt="Gajar Murabba" class="thumbnail">
+                    <img src="Images/initialname.jpg" alt="Belgiri Murabba" class="thumbnail">
+                    <img src="Images/birthstone.jpg" alt="Seb Murabba" class="thumbnail">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Giftopia</h2>
+                    <p>Welcome to Giftopia, your one-stop destination for unique, handcrafted treasures that turn everyday moments into lasting memories. From personalized keepsakes to thoughtfully curated gifts, each item in our collection is made with love and care by skilled artisans who value creativity and quality.</p>
+                    
+                    <p>At Giftopia, we believe gifting should feel personal. That’s why we offer customizable options across a wide range of products — from name-engraved jewelry and hand-stitched plushies to elegant home décor and celebration-ready hampers. Whether you’re marking a milestone or simply showing someone you care, we have something that speaks from the heart.</p>
+                    
+                    <p>More than just a shop, Giftopia is a space where meaningful moments are wrapped in charm and thoughtfulness. Discover gifts that tell stories, celebrate connections, and bring smiles — all handcrafted with love, just for you.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fa-solid fa-hand-holding-heart feature-icon"></i>
+                            <h3>Handcrafted with Love</h3>
+                            <p>Each piece is handcrafted with love to make every gift truly special</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fa-solid fa-fingerprint feature-icon"></i>
+                            <h3>Personalized</h3>
+                            <p>Made just for you, with names, messages, and memories that matter</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-hand-holding-usd feature-icon"></i>
+                            <h3>Affordable</h3>
+                            <p>Quality products at prices accessible to everyone</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="Images/shop.jpg" alt="Hygienic food production" class="hygiene-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="process">
+        <div class="container">
+            <h2>The way we craft our treasures</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Material Selection</h3>
+                        <p>Only the finest, eco-friendly materials make the cut.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Handcrafting</h3>
+                        <p>Every item is carefully handmade by skilled artisans</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Personalization</h3>
+                        <p>Names, dates, and colors — your gift, your way.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Quality Check</h3>
+                        <p>Each product is inspected to ensure perfection.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="process-image">
+                <img src="Images/handcraft.jpg" alt="Food production with hygiene standards" class="process-photo">
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"I bought a SnuggleBuddy for my niece, and she hasn’t let go of it since. The quality is amazing!"</p>
+                        <div class="testimonial-author">
+                            <h4>Spandan S.</h4>
+                            <p>Mumbai, Maharashtra</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"The personalized bracelet I ordered was even more beautiful in person. You can feel the love in every detail!"</p>
+                        <div class="testimonial-author">
+                            <h4>Lavanya P.</h4>
+                            <p>Navi Mumbai, Maharashtra</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"From ordering to unboxing, everything was smooth. The gift looked premium and arrived on time!"</p>
+                        <div class="testimonial-author">
+                            <h4>Kratika R.</h4>
+                            <p>Ujjain, Madhya Pradesh</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Visit Our Store</h3>
+                            <p>Giftopia<br>
+                            Vaswani Plaza Priyadarshini Chouraha, Freeganj<br>
+                            Ujjain, Madhya Pradesh 456001</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Call Us</h3>
+                            <p>+91 8992443100<br>
+                            +91 9819116035</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email Us</h3>
+                            <p>smiles@giftopia.store</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Working hours</h3>
+                            <p>Monday - Saturday: 9:00 AM - 8:00 PM<br>
+                            Sunday: 10:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <svg class="logo-svg-footer" viewBox="0 0 250 80" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="40" cy="40" r="30" fill="#FF1493" />
+                        <text x="40" y="45" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Giftopia</text>
+                        <text x="80" y="42" text-anchor="start" fill="#fff" font-size="24" font-weight="bold">Giftopia</text>
+                        <text x="80" y="62" text-anchor="start" fill="#FF1493" font-size="16">Packed with Wonder</text>
+                    </svg>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-products">
+                    <h3>Our Products</h3>
+                    <ul>
+                        <li><a href="#products">Bracelets</a></li>
+                        <li><a href="#products">Necklaces</a></li>
+                        <li><a href="#products">Plush Toys</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Giftopia. All Rights Reserved.</p>
+                <p>Created for educational purposes as part of a college assignment.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
