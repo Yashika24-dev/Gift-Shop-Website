@@ -160,15 +160,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 let replacementImage = '';
                 
                 if (altText.includes('amla')) {
-                    replacementImage = 'https://images.unsplash.com/photo-1621939514649-280e2ee25f60';
+                    replacementImage = 'https://images.unsplash.com/photo-1623018035782-b269248df916?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
                 } else if (altText.includes('gajar') || altText.includes('carrot')) {
-                    replacementImage = 'https://images.unsplash.com/photo-1727018427695-35a6048c91e7';
+                    replacementImage = 'https://images.unsplash.com/photo-1623018035782-b269248df916?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
                 } else if (altText.includes('belgiri') || altText.includes('wood apple')) {
-                    replacementImage = 'https://images.unsplash.com/photo-1727018792817-2dae98db2294';
+                    replacementImage = 'https://images.unsplash.com/photo-1623018035782-b269248df916?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
                 } else if (altText.includes('seb') || altText.includes('apple')) {
-                    replacementImage = 'https://images.unsplash.com/photo-1611586315282-e175d4a74bca';
+                    replacementImage = 'https://images.unsplash.com/photo-1623018035782-b269248df916?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
                 } else {
-                    replacementImage = 'https://images.unsplash.com/photo-1621939514649-280e2ee25f60';
+                    replacementImage = 'https://images.unsplash.com/photo-1623018035782-b269248df916?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
                 }
                 
                 this.src = replacementImage;
